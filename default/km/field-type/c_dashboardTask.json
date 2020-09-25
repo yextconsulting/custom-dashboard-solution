@@ -1,0 +1,44 @@
+{
+  "$id": "c_dashboardTask",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "displayName": "Dashboard Task",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "name",
+          "displayName": "name",
+          "isRequired": false,
+          "typeId": "yext/string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE"
+            }
+          }
+        },
+        {
+          "name": "description",
+          "displayName": "description",
+          "isRequired": false,
+          "typeId": "yext/string",
+          "type": {
+            "stringType": {
+              "stereotype": "MULTILINE"
+            }
+          }
+        },
+        {
+          "name": "field",
+          "displayName": "field",
+          "isRequired": false,
+          "typeId": "yext/string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

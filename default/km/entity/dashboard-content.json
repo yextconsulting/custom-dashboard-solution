@@ -1,0 +1,45 @@
+{
+  "$id": "dashboard-content",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_dashboardDescription": "This dashboard provides a custom, streamlined experience for your users to interact with their data in the Yext Knowledge Graph. Complete tasks to improve your profile score.",
+    "c_dashboardHeading": "Welcome to your Yext Custom Dashboard",
+    "c_taskGroups": [
+      {
+        "description": "This is the first task group.",
+        "name": "Task Group 1",
+        "shouldScore": true,
+        "tasks": [
+          {
+            "description": "",
+            "field": "virtual.name",
+            "name": "Name"
+          },
+          {
+            "description": "",
+            "field": "virtual.address",
+            "name": "Address"
+          },
+          {
+            "description": "",
+            "field": "location.main_phone",
+            "name": "Phone"
+          },
+          {
+            "description": "",
+            "field": "virtual.expanded.hours.location.business_hours",
+            "name": "Hours"
+          },
+          {
+            "description": "",
+            "field": "location.business_description",
+            "name": "Description"
+          }
+        ]
+      }
+    ],
+    "yext/name": "Dashboard Content"
+  },
+  "entityType": "ce_dashboardContent",
+  "labels": []
+}

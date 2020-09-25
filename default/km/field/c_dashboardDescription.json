@@ -1,0 +1,13 @@
+{
+  "$id": "c_dashboardDescription",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Dashboard Description",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "MULTILINE"
+    }
+  },
+  "typeId": "yext/string"
+}

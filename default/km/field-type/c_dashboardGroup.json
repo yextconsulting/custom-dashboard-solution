@@ -1,0 +1,53 @@
+{
+  "$id": "c_dashboardGroup",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "displayName": "Dashboard Group",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "name",
+          "displayName": "name",
+          "isRequired": false,
+          "typeId": "yext/string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE"
+            }
+          }
+        },
+        {
+          "name": "description",
+          "displayName": "description",
+          "isRequired": false,
+          "typeId": "yext/string",
+          "type": {
+            "stringType": {
+              "stereotype": "MULTILINE"
+            }
+          }
+        },
+        {
+          "name": "tasks",
+          "displayName": "tasks",
+          "isRequired": false,
+          "typeId": "yext/list",
+          "type": {
+            "listType": {
+              "typeId": "c_dashboardTask"
+            }
+          }
+        },
+        {
+          "name": "shouldScore",
+          "displayName": "should score",
+          "isRequired": false,
+          "typeId": "yext/boolean",
+          "type": {
+            "booleanType": {}
+          }
+        }
+      ]
+    }
+  }
+}
