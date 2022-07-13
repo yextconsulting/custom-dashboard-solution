@@ -1,0 +1,20 @@
+{
+  "$id": "basic_ce_dashboardContent",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "basicSolution_dashboardContent-default",
+  "description": "",
+  "entityType": "ce_dashboardContent",
+  "fields": [
+    "name",
+    "entityId",
+    "c_dashboardDescription",
+    "c_dashboardHeading",
+    "c_taskGroups",
+    "folder",
+    "labels"
+  ],
+  "required": [
+    "name",
+    "entityId"
+  ]
+}

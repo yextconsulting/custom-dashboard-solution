@@ -1,38 +1,7 @@
 {
   "$id": "ce_dashboardContent",
-  "$schema": "https://schema.yext.com/config/km/entity-type/v1",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v2",
   "description": "This entity will store all of the content that is related to the custom dashboard. This allows control over content post launch without requiring development resources ",
   "displayName": "Dashboard Content",
-  "enabled": true,
-  "field": [
-    {
-      "id": "yext/name",
-      "required": true
-    },
-    {
-      "id": "c_dashboardDescription",
-      "required": false
-    },
-    {
-      "id": "c_dashboardHeading",
-      "required": false
-    },
-    {
-      "id": "c_taskGroups",
-      "required": false
-    },
-    {
-      "id": "yext/folder",
-      "required": false
-    },
-    {
-      "id": "yext/labels",
-      "required": false
-    },
-    {
-      "id": "yext/entityId",
-      "required": true
-    }
-  ],
   "pluralDisplayName": ""
 }
