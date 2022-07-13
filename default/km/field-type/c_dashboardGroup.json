@@ -9,7 +9,7 @@
           "name": "name",
           "displayName": "name",
           "isRequired": false,
-          "typeId": "yext/string",
+          "typeId": "string",
           "type": {
             "stringType": {
               "stereotype": "SIMPLE"
@@ -20,7 +20,7 @@
           "name": "description",
           "displayName": "description",
           "isRequired": false,
-          "typeId": "yext/string",
+          "typeId": "string",
           "type": {
             "stringType": {
               "stereotype": "MULTILINE"
@@ -31,7 +31,7 @@
           "name": "tasks",
           "displayName": "tasks",
           "isRequired": false,
-          "typeId": "yext/list",
+          "typeId": "list",
           "type": {
             "listType": {
               "typeId": "c_dashboardTask"
@@ -42,7 +42,7 @@
           "name": "shouldScore",
           "displayName": "should score",
           "isRequired": false,
-          "typeId": "yext/boolean",
+          "typeId": "boolean",
           "type": {
             "booleanType": {}
           }

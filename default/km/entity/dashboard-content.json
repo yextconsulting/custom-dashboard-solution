@@ -38,7 +38,7 @@
         ]
       }
     ],
-    "yext/name": "Dashboard Content"
+    "name": "Dashboard Content"
   },
   "entityType": "ce_dashboardContent",
   "labels": []
